@@ -1,0 +1,17 @@
+{
+    "include": ["src"],
+
+    "compilerOptions": {
+        "allowJs": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "verbatimModuleSyntax": true,
+        "declarationDir": "./dist",
+        "declaration": true,
+        "module": "ES2022",
+        "outDir": "./dist",
+        "target": "ES2021",
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "astro-component-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./register": {
+      "default": "./dist/register.js",
+      "types": "./dist/register.d.ts"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "astro": "2.4.5"
+  },
+  "devDependencies": {
+    "astro": "^2.4.5"
+  }
+}
